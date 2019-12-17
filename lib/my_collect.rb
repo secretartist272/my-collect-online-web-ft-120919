@@ -1,10 +1,9 @@
 counter = 0
 def my_collect(array)
   new_array = []
-  while counter < collection.length 
+  while counter < array.length 
+    new_array << yield(array[counter])
     counter =+ 1 
-  end
-  new_array
 end
 
 languages = ["ruby", "javascript", "python", "objective-c"]
