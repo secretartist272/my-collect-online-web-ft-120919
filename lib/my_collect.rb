@@ -2,7 +2,7 @@ counter = 0
 def my_collect(array)
   new_array = []
   while counter < collection.length 
-    new_array << yield (collection[counter])
+    new_array <= yield (collection[counter])
     counter =+ 1 
   end
   new_array
