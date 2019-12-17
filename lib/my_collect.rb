@@ -1,13 +1,13 @@
 counter = 0
-
-def my_collect(empty_array) 
-    counter =+ 1 
+def my_collect(array)
+  new_array = []
+  while counter < array.length 
+    new_array << yield(array[counter])
+    counter += 1 
 end
 
-
-
-
-collection = ["ruby", "javascript", "python", "objective-c"]
-def my_collection(collection)
+languages = ["ruby", "javascript", "python", "objective-c"]
+def my_collection(languages)
   
+ language.upcase
 end
