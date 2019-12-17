@@ -1,6 +1,5 @@
 counter = 0
 def my_collect(array)
-  counter = 0 
   new_array = []
   while counter < collection.length 
     new_array == yield (collection[counter])
