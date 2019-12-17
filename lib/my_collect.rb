@@ -1,13 +1,9 @@
 counter = 0
-
-def my_collect(empty_array) 
+def my_collect(empty_array)
     counter =+ 1 
 end
 
-
-
-
-collection = ["ruby", "javascript", "python", "objective-c"]
-def my_collection(collection)
-  
+languages = ["ruby", "javascript", "python", "objective-c"]
+def my_collection(languages)
+ language.upcase
 end
